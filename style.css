@@ -1,0 +1,136 @@
+/* Apply general styles to all elements */
+* {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+/* Basic styling for the body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('./tk.jpg'); /* Background image for the page */
+}
+
+/* Header section styling */
+header {
+    background-color: black; /* Slightly transparent black background */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Navigation bar container */
+nav {
+    background-color: rgba(0, 0, 0, 0.626); /* Semi-transparent dark background */
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Links inside the navigation bar */
+nav a {
+    color: white;
+    margin: 0 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hover effect for navigation links */
+nav a:hover {
+    opacity: 0.5; /* Slightly fade when hovered */
+}
+
+/* Main content container */
+.div1 {
+    width: 50%;
+    margin: 30px auto;
+    padding: 20px;
+    border: 1px solid gray;
+    border-radius: 20px;
+    backdrop-filter: blur(3px); /* Adds a blur effect behind the box */
+    background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent white background */
+}
+
+/* Center the form elements */
+form {
+    text-align: center;
+}
+
+/* Style input fields */
+input {
+    padding: 8px;
+    width: 60%;
+}
+
+/* Style for labels */
+label {
+    color: aliceblue;
+    font-size: larger;
+}
+
+/* Button styling */
+button {
+    padding: 10px 20px;
+    background: rgba(128, 128, 128, 0.952);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Button hover effect */
+button:hover {
+    background: rgba(255, 235, 205, 0.886);
+    transition: 3s; /* Smooth color transition over 3 seconds */
+}
+
+/* Footer section styling */
+.page-footer {
+    background-color: rgba(0, 0, 0, 0.904);
+    color: white;
+    text-align: center;
+    padding: 25px;
+    font-family: Arial, sans-serif;
+    margin-top: 200px; /* Adds space above the footer */
+}
+
+/* Footer links */
+.page-footer a {
+    color: rgb(0, 140, 255);
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+/* Hover effect for footer links */
+.page-footer a:hover {
+    text-decoration: underline;
+}
+
+/* Header layout (used for logo + company name) */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centers the company name horizontally */
+    position: relative;
+    height: 80px;
+}
+
+/* Logo styling */
+.logo {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    width: 100px;
+    height: 100px;
+    border-radius: 90%; /* Makes logo rounded */
+}
+
+/* Company name inside header */
+.company-name {
+    font-size: 24px;
+    margin: 0;
+}
+.team{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
